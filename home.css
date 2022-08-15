@@ -1,0 +1,54 @@
+h1 {
+    color: rgb(240, 60, 90);
+    background-color: blue;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+p {
+    color: rgb(69, 63, 239);
+    line-height: 30px;
+    letter-spacing: 2px;
+    column-count: 3;
+    column-gap: 30px;
+
+}
+
+ul {
+    /* border-width: 4px;
+    border-style: groove;
+    border-color: brown; */
+    /* border: 4px groove brown; */
+
+    border-bottom: 4px dotted rgb(22, 186, 120);
+
+}
+
+li {
+    list-style-type: none;
+    text-shadow: 2px 2px gray;
+}
+
+.main {
+    color: green;
+}
+
+#content {
+    background-color: burlywood;
+    padding: 20px;
+}
+
+div {
+    color: rgb(71, 227, 227);
+    border: 1px solid grey;
+    margin: 40px;
+    font-weight: bold;
+}
+
+p {
+    border: inherit;
+    margin: inherit;
+}
